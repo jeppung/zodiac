@@ -23,9 +23,12 @@ A Flutter package to get zodiac from date
 ## Usage
 Example:
 ```dart
-const zodiac = Zodiac().getZodiac('2000-01-01'); // Capricorn
+const zodiac = Zodiac().getZodiac('2000-01-01');
 
-const zodiac2 = Zodiac().getZodiac('2000-08-17 00:00:00'); // Leo
+const zodiac2 = Zodiac().getZodiac('2000-08-17 00:00:00');
+
+print(zodiac); // Capricorn
+print(zodiac2); // Leo
 ```
 
 ## Additional information
