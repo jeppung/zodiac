@@ -16,12 +16,16 @@ A Flutter package to get zodiac from date
 ## Features
 
 - returning zodiac as a String
-- for now, function argument only support yyyy-mm-dd string format
+- for now, function argument only support :
+    - YYYY-MM-dd (ISO 8601) string format
+    - YYYY-MM-DD hh:mm:ss string format
 
 ## Usage
 Example:
 ```dart
 const zodiac = Zodiac().getZodiac('2000-01-01'); // Capricorn
+
+const zodiac2 = Zodiac().getZodiac('2000-08-17 00:00:00'); // Leo
 ```
 
 ## Additional information
