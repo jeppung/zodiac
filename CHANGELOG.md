@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+Get zodiac as a String from date
